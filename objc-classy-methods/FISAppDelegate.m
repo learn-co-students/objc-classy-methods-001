@@ -18,6 +18,12 @@
     NSString *katherineHepburn = [katherine stringByAppendingString:@" Hepburn"];
     NSLog(@"%@", katherineHepburn);
     
+    // Code-Along: I:B.
+    
+    NSString *james = @"James";
+    NSString *jamesStewart = [NSString stringWithFormat:@"%@ %@", james, @"Stewart"];
+    NSLog(@"%@", jamesStewart);
+    
     return YES;
 }
 
