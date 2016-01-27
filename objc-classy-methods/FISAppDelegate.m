@@ -18,11 +18,17 @@
     NSString *katherineHepburn = [katherine stringByAppendingString:@" Hepburn"];
     NSLog(@"%@", katherineHepburn);
     
-    // Code-Along: I:B.
+    // Code-Along I:B.
     
     NSString *james = @"James";
-    NSString *jamesStewart = [NSString stringWithFormat:@"%@ %@", james, @"Stewart"];
+    NSString *jamesStewart = [[NSString alloc] initWithFormat:@"%@ %@", james, @"Stewart"];
     NSLog(@"%@", jamesStewart);
+    
+    // Code-Along I:C.
+    
+    NSString *queen = @"Queen";
+    NSString *queenElizabethII = [NSString stringWithFormat:@"%@ %@ %@", queen, @"Elizabeth", @"II"];
+    NSLog(@"%@", queenElizabethII);
     
     return YES;
 }
