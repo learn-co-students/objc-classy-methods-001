@@ -30,6 +30,11 @@
     NSString *queenElizabethII = [NSString stringWithFormat:@"%@ %@ %@", queen, @"Elizabeth", @"II"];
     NSLog(@"%@", queenElizabethII);
     
+    // Code-Along II:A.
+    
+    NSArray *classyThings = @[@"monocle", @"top hat", @"martini glass"];
+    NSLog(@"%@", classyThings);
+    
     return YES;
 }
 
