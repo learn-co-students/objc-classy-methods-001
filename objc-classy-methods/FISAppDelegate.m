@@ -35,6 +35,11 @@
     NSArray *classyThings = @[@"monocle", @"top hat", @"martini glass"];
     NSLog(@"%@", classyThings);
     
+    // Code-Along II:B.
+    
+    NSArray *classyPeople = [[NSArray alloc] initWithObjects:@"Katherine Hepburn", @"James Stewart", @"Queen Elizabeth II", nil];
+    NSLog(@"%@", classyPeople);
+    
     return YES;
 }
 
