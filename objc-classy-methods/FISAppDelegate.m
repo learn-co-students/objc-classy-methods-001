@@ -64,6 +64,11 @@
     NSDictionary *classyByInit = [[NSDictionary alloc] initWithObjectsAndKeys:classyThings, @"classy things", classyPeople, @"classy people", classyDrinks, @"classy drinks", nil];
     NSLog(@"%@", classyByInit);
     
+    // Code-Along III:C.
+    
+    NSDictionary *classyByClass = [NSDictionary dictionaryWithObjects:@[classyThings, classyPeople, classyDrinks] forKeys:@[@"classy things", @"classy people", @"classy drinks"]];
+    NSLog(@"%@", classyByClass);
+    
     return YES;
 }
 
