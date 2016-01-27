@@ -12,11 +12,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    /**
-     
-     *  Write your code here.
-     
-     */
+    // Code-Along I:A.
+    
+    NSString *katherine = @"Katherine";
+    NSString *katherineHepburn = [katherine stringByAppendingString:@" Hepburn"];
+    NSLog(@"%@", katherineHepburn);
     
     return YES;
 }
