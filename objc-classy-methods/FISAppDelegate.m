@@ -59,6 +59,11 @@
                                       };
     NSLog(@"%@", classyByLiteral);
     
+    // Code-Along III:B.
+    
+    NSDictionary *classyByInit = [[NSDictionary alloc] initWithObjectsAndKeys:classyThings, @"classy things", classyPeople, @"classy people", classyDrinks, @"classy drinks", nil];
+    NSLog(@"%@", classyByInit);
+    
     return YES;
 }
 
