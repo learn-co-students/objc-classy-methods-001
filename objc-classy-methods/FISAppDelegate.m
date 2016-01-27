@@ -45,6 +45,20 @@
     NSArray *classyDrinks = [NSArray arrayWithObjects:@"Old Fashioned", @"Churchill Martini", @"Prosecco", nil];
     NSLog(@"%@", classyDrinks);
     
+    // Code-Along III:A.
+    
+    NSDictionary *classyByLiteral = @{@"classy things":@[@"monocle",
+                                                         @"top hat",
+                                                         @"martini glass"],
+                                      @"classy people":@[@"Katherine Hepburn",
+                                                         @"James Stewart",
+                                                         @"Queen Elizabeth II"],
+                                      @"classy drinks":@[@"Old Fashioned",
+                                                         @"Churchill Martini",
+                                                         @"Prosecco"]
+                                      };
+    NSLog(@"%@", classyByLiteral);
+    
     return YES;
 }
 
