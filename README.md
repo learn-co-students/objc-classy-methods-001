@@ -215,7 +215,8 @@ This should print a dictionary matching the one from section A. Verify that the 
 
 ```objc
 NSDictionary *classyByClass = [NSDictionary dictionaryWithObjects:@[classyThings, classyPeople, classyDrinks]
-                                                          forKeys:@[@"classy things", @"classy people", @"classy drinks"]];
+
+forKeys:@[@"classy things", @"classy people", @"classy drinks"]];
 ```
 
 2 — Use `NSLog()` to print `classyByClass` to the console:
